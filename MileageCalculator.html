@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileage Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mileage Calculator</h1>
+    </header>
+    <main>
+        <div class="calculator">
+            <label for="distance">Distance (kilometers):</label>
+            <input type="number" id="distance" placeholder="Enter distance" required>
+            <label for="fuel">Fuel Consumed (liters):</label>
+            <input type="number" id="fuel" placeholder="Enter fuel consumed" required>
+            <button onclick="calculateMileage()">Calculate</button>
+            <div id="result"></div>
+        </div>
+        </main>
+    <script src="MileageJavscript.js"></script>
+</body>
+</html>
